@@ -7,7 +7,6 @@ package com.example.testgit;
 public class TestContoller {
     public static final String WORD_TEST = "wordTest";
     public void test01(){
-        System.out.println("test01");
-        System.out.println("test03");
+        System.out.println("test02");
     }
 }
