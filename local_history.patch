@@ -1,0 +1,15 @@
+Index: src/main/java/com/example/testgit/demos/web/Patch.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/example/testgit/demos/web/Patch.java b/src/main/java/com/example/testgit/demos/web/Patch.java
+--- a/src/main/java/com/example/testgit/demos/web/Patch.java	
++++ b/src/main/java/com/example/testgit/demos/web/Patch.java	(date 1757943157600)
+@@ -3,5 +3,6 @@
+ public class Patch {
+     public static void main(String[] args) {
+         System.out.println("hhh");
++        System.out.println("patch try....");
+     }
+ }
