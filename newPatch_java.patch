@@ -1,0 +1,41 @@
+Subject: [PATCH] newPatch.java
+---
+Index: local_history.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/local_history.patch b/local_history.patch
+new file mode 100644
+--- /dev/null	(revision 8ed49227c4492758a68a13e309f8be830567fee1)
++++ b/local_history.patch	(revision 8ed49227c4492758a68a13e309f8be830567fee1)
+@@ -0,0 +1,15 @@
++Index: src/main/java/com/example/testgit/demos/web/Patch.java
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/src/main/java/com/example/testgit/demos/web/Patch.java b/src/main/java/com/example/testgit/demos/web/Patch.java
++--- a/src/main/java/com/example/testgit/demos/web/Patch.java	
+++++ b/src/main/java/com/example/testgit/demos/web/Patch.java	(date 1757943157600)
++@@ -3,5 +3,6 @@
++ public class Patch {
++     public static void main(String[] args) {
++         System.out.println("hhh");
+++        System.out.println("patch try....");
++     }
++ }
+Index: src/main/java/com/example/testgit/demos/web/newPatch.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/example/testgit/demos/web/newPatch.java b/src/main/java/com/example/testgit/demos/web/newPatch.java
+new file mode 100644
+--- /dev/null	(revision 8ed49227c4492758a68a13e309f8be830567fee1)
++++ b/src/main/java/com/example/testgit/demos/web/newPatch.java	(revision 8ed49227c4492758a68a13e309f8be830567fee1)
+@@ -0,0 +1,4 @@
++package com.example.testgit.demos.web;
++
++public class newPatch {
++}
